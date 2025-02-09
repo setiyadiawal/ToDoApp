@@ -9,6 +9,8 @@ const tasksTodo = document.getElementById('tasksTodo')
 const tasksDone = document.getElementById('tasksDone')
 const tasksLate = document.getElementById('tasksLate')
 
+
+
 // Membuat value dari tanggal menjadi default hari ini
 window.addEventListener('DOMContentLoaded', dateLoad())
 function dateLoad () {
@@ -48,12 +50,7 @@ function addTask () {
     liList.style.listStyleType = 'none'
     liList.style.marginBottom = '20px'
 
-        // Late Tasks
-    if (dateValue < today) {
-        ulLate.appendChild(liList)
-    } else {
-        renderTask(newTaskList); //Untuk menampilkan list menggunakan High order Function
-    };
+    renderTask(newTaskList); //Untuk menampilkan list menggunakan High order Function
 }
 
 function renderTask(newTaskList) {
@@ -158,3 +155,6 @@ function deleteAll () {
     tasksLate.appendChild(newUllate)
 }
 
+function editTask() {
+    liList.queryS
+}
