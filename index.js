@@ -154,7 +154,3 @@ function deleteAll () {
     tasksDone.appendChild(newUldone)
     tasksLate.appendChild(newUllate)
 }
-
-function editTask() {
-    liList.queryS
-}
