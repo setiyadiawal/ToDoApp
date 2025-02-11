@@ -56,6 +56,7 @@ function renderTask(newTaskList) {
     const liList = document.createElement('li')
     liList.style.listStyleType = 'none'
     liList.style.marginBottom = '20px'
+    liList.setAttribute('id', 'liList')
     
     const checkbox = document.createElement('input')
     checkbox.type = "checkbox"

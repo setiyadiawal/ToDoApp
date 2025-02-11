@@ -192,3 +192,116 @@ input, select {
     gap: 3px;
     max-width: 100%;
 }
+
+/* Mobile */
+@media screen and (max-width: 455px) {
+    body h1 {
+        text-align: center;
+        font-size: 1.9em;
+    }
+    .addContainer{
+        flex-direction: column;
+        padding: 30px 15px;
+        gap: 0;
+    }
+    
+    .profile {
+        flex-direction: row;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .profile img {
+        width: 45%;
+    }
+
+    .profile .textProfile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .profile .textProfile .jabatan {
+        font-size: 0.9em !important; 
+    }
+
+    .formContainer{
+        gap: 0;
+    }
+    .formContainer2{
+        gap: 0;
+    }
+   .inputContainer{
+    height: 100%;
+    flex-direction: column;
+   }
+   input{
+    width: 90%;
+    height: 2.3em;
+   }
+   select{
+    width: 93%;
+    height: 2.3em;
+   }
+   .inputButton {
+    flex-direction: column;
+   }
+
+   .tasksContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .todoContainer {
+    width: 80%;
+    padding: 5px 20px 0px;
+}
+
+.doneContainer {
+    padding: 5px 20px 0px;
+    width: 80%;
+}
+h2{
+    font-size: 1.3em;
+}
+
+.text-todo {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+
+}
+
+.date-todo {
+    width: 100%;
+    font-size: 1em;
+    padding-left: 20%;
+}
+.divButton {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#ulTodo, #ulDone, #ulLate{
+    padding: 0px;
+}
+
+#liList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0px;
+    margin: 0px 0px 0px 0px;
+}
+#liList br {
+    display: none;
+}
+
+.textContainer{
+    width: 100%;
+   }
+}
